@@ -19,4 +19,39 @@ h2{
     margin-left: 42px;
 }
 
-
+.contenedor {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  .campo label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .campo input[type="text"],
+  .campo input[type="email"],
+  .campo textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .campo button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .campo button:hover {
+    background-color: #510cac;
+  }
