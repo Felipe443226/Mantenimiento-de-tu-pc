@@ -24,3 +24,8 @@ nav a {
     width: 400px;  
 
 }
+
+.afrente {
+    display: inline-block;
+    padding-top: 15px;
+}

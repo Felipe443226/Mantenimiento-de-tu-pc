@@ -48,3 +48,9 @@ header {
 h4 {
     text-align: center;
 }
+
+
+.afrente {
+    display: inline-block;
+    padding-top: 15px;
+}

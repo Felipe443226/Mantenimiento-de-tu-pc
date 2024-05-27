@@ -27,3 +27,9 @@ nav a {
     width: auto;
     margin-left: 25px;
 }
+
+
+.afrente {
+    display: inline-block;
+    padding-top: 15px;
+}

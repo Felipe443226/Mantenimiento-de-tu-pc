@@ -53,5 +53,12 @@ h2{
   }
   
   .campo button:hover {
-    background-color: #510cac;
+    background-color: #ff3c00;
   }
+
+
+
+  .afrente {
+    display: inline-block;
+    padding-top: 15px;
+}
