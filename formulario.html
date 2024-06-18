@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/formulario.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <title>Mantenimiento de tu pc</title>
 
@@ -43,7 +42,6 @@
     
 <div class="contenedor">
 
- <form id="alerta_de_voton_de_enviar">
 
     <div class="campo">
       <label for="Nombre">Nombre</label>
@@ -70,26 +68,15 @@
 
 
     <div class="campo">
-        <button type="submit" id="botonEnviar">Enviar</button>
+        <button type="submit" onclick="compro()">Enviar</button>
     </div>
 
- </form>
+ 
 
 </div>
 
 
- <script>
-        document.getElementById('alerta_de_voton_de_enviar').addEventListener('submit', function(e) {
-            e.preventDefault(); 
-
-            Swal.fire({
-                title: 'Gracias',
-                text: 'Tus datos y mensaje fue enviado con excito',
-                icon: 'success',
-                confirmButtonText: 'ok'
-            });
-        });
-    </script>    
+  
 
 <br>
 <br>
@@ -121,6 +108,11 @@
   
 </footer>
 
+<script>
+    function compro(){
+        alert("tus datos y mensaje fue enviado.")
+    }
+</script>
 
 
 
