@@ -1,12 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantenimiento de tu PC</title>
+    <title>Mantenimiento de tu pc</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/bodi.css">
+    <style>
+        
+    </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <header class="container-fluid py-3">
@@ -29,37 +33,20 @@
 
     <main class="container mt-5 flex-grow-1">
         <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h2 class="card-title text-center mb-4">Formulario</h2>
-                        <form id="formulario">
-                            <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="nombre" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="apellido" class="form-label">Apellido</label>
-                                <input type="text" class="form-control" id="apellido" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-                            </div>
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                            </div>
-                        </form>
+            <div class="col-md-6 ">
+                <h1 class="mb-3 ">¿Cada cuánto debo limpiar mi PC?</h1>
+                <p>Bueno, esto depende de varios factores. Si el ordenador es nuevo, se encontrará perfectamente limpio hasta los 4 meses o más, y no sería necesario realizar una limpieza antes. Por otro lado, las revisiones deben ser más habituales si el dispositivo es nuevo, ya que no se encuentra todo el dispositivo funcionando a su máxima potencia. Lo importante es la calidad del equipo, sus componentes serán de menor calidad y el PC se encuentra más rígido que en un equipo del orden, por lo que es recomendable hacer una revisión/limpieza de tu PC cada 5 a 6 meses.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row mb-4 ">
+                    <div class="col-12 ">
+                        <img src="./assets/imagenes/limpiesa.png" alt="" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
         </div>
-    </main>
 
+    </main>
     <footer class="bg-light text-dark text-center py-3 mt-auto">
         <div class="container">
             <div class="d-flex justify-content-center gap-3">
@@ -74,21 +61,7 @@
                 </a>
             </div>
         </div>
-    </footer>
-    
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </footer> 
 
-<script>
-    document.getElementById('formulario').addEventListener('submit', function(e) {
-        e.preventDefault(); 
-
-        Swal.fire({
-            title: 'Gracias',
-            text: 'Tus datos y mensaje fueron enviados con éxito',
-            icon: 'success',
-            confirmButtonText: 'OK'
-        });
-    });
-</script>
 </body>
 </html>
